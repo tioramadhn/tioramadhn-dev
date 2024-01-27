@@ -105,15 +105,15 @@ main {
   }
 }
 
-@media (min-width: 1536px) {
-  main:after {
-    max-width: 1536px;
-  }
-}
-
 @media (min-width: 1280px) {
   main:after {
     max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  main:after {
+    max-width: calc(100vw - 20%);
   }
 }
 @keyframes dotScroll {
