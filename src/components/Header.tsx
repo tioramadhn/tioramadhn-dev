@@ -16,9 +16,11 @@ const Header = () => {
         </Link>
 
         <div className="flex gap-2">
-          <Button variant="outline" size="icon">
-            <GithubIcon />
-          </Button>
+          <Link href={"https://github.com/tioramadhn"} passHref>
+            <Button variant="outline" size="icon">
+              <GithubIcon />
+            </Button>
+          </Link>
           <ModeToggle />
         </div>
       </MaxWidthWrapper>
