@@ -1,8 +1,5 @@
-import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { ModeToggle } from "@/components/ModeToggle";
 import { Button } from "@/components/ui/button";
-import { File, FileText } from "lucide-react";
-import Image from "next/image";
+import { FileText } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {

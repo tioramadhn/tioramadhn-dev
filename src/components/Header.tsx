@@ -8,11 +8,11 @@ import { GithubIcon } from "lucide-react";
 const Header = () => {
   return (
     <div className="sticky h-16 border-b flex items-center">
-      <MaxWidthWrapper className="flex justify-between">
+      <MaxWidthWrapper className="flex justify-between items-center">
         <Link href={"/"} passHref>
-          <Button variant={"ghost"} className="body-large-bold">
+          <div className="body-large-bold ">
             tioramadhn<span className="text-primary">dev</span>
-          </Button>
+          </div>
         </Link>
 
         <div className="flex gap-2">
