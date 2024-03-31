@@ -11,7 +11,7 @@ const Header = () => {
       <MaxWidthWrapper className="flex justify-between">
         <Link href={"/"} passHref>
           <Button variant={"ghost"} className="body-large-bold">
-            tioramadhn
+            tioramadhn<span className="text-primary">dev</span>
           </Button>
         </Link>
 
