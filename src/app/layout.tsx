@@ -81,7 +81,7 @@ export default function RootLayout({
           <main className="flex flex-col min-h-screen overflow-x-hidden">
             <Header />
             <DotedBackground />
-            <MaxWidthWrapper className="flex-1 grow border-none md:border-l ">
+            <MaxWidthWrapper className="flex-1 grow border-l flex">
               {children}
             </MaxWidthWrapper>
             <Footer />

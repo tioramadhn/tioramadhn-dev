@@ -1,12 +1,10 @@
 "use client";
 import Spline from "@splinetool/react-spline";
+import { useTheme } from "next-themes";
+import { PropsWithChildren } from "react";
 
-const SplineTemplate = () => {
-  return (
-    <div className="h-screen w-screen">
-      <Spline scene="https://prod.spline.design/fZrcu9tZ2vlikAsY/scene.splinecode" />
-    </div>
-  );
+const SplineTemplate = ({ scene }: { scene: string }) => {
+  return <Spline scene={scene} />;
 };
 
 export default SplineTemplate;
