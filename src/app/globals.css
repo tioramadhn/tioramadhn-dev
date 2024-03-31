@@ -58,7 +58,7 @@
   }
 }
 
-main::after {
+.dot {
   content: "";
   animation: dotScroll 16s linear infinite;
   background-image: radial-gradient(
@@ -72,50 +72,66 @@ main::after {
   padding-right: 1rem;
 }
 
-main {
+.dot {
   --dot-size: 1.25px;
 }
 
+.shine {
+  background-image: radial-gradient(
+    200px 100px at 50%0,
+    #131f33 20%,
+    rgba(19, 30, 49, 0) 100%
+  );
+}
+
 @media (min-width: 400px) {
-  main:after {
+  .dot {
     max-width: 400px;
   }
 }
 
 @media (min-width: 640px) {
-  main {
+  .dot {
     --dot-size: 2px;
   }
 
-  main:after {
+  .dot {
     max-width: 640px;
   }
 }
 
 @media (min-width: 768px) {
-  main:after {
+  .dot {
     background-size: calc(8.3333333333% - 1px) 140px;
     max-width: 768px;
+  }
+  .shine {
+    background-image: radial-gradient(
+      500px 200px at 50%0,
+      #131f33 20%,
+      rgba(19, 30, 49, 0) 100%
+    );
   }
 }
 
 @media (min-width: 1024px) {
-  main:after {
+  .dot {
     max-width: 1024px;
   }
 }
 
 @media (min-width: 1280px) {
-  main:after {
+  .dot {
     max-width: 1280px;
   }
 }
 
 @media (min-width: 1536px) {
-  main:after {
+  .dot {
     max-width: calc(100vw - 20%);
   }
 }
+
 @keyframes dotScroll {
   0% {
     background-position-y: 140px;
