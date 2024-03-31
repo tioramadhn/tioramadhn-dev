@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -31,7 +31,7 @@ export default function RootLayout({
           <main className="flex flex-col min-h-screen overflow-x-hidden">
             <Header />
             <DotedBackground />
-            <MaxWidthWrapper className="flex-1 grow border-l ml-10 md:mx-auto">
+            <MaxWidthWrapper className="flex-1 grow border-l ">
               {children}
             </MaxWidthWrapper>
             <Footer />

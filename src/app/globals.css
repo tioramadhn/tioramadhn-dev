@@ -23,7 +23,7 @@
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 221.2 83.2% 53.3%;
-    --radius: 0rem;
+    --radius: 1rem;
   }
 
   .dark {
@@ -55,6 +55,42 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .heading-hero-title {
+    @apply text-[36px] font-black leading-[43px] sm:text-[64px] sm:leading-[77px];
+  }
+  .heading-section-title {
+    @apply text-[32px] font-bold leading-[38px] sm:text-[40px] sm:leading-[48px];
+  }
+  .body-large-bold {
+    @apply text-[18px] font-bold leading-[19px] sm:text-[20px] sm:leading-[32px];
+  }
+  .body-large-medium {
+    @apply text-[18px] font-medium leading-[29px] sm:text-[20px] sm:leading-[32px];
+  }
+  .body-medium-bold {
+    @apply text-[16px] font-bold leading-[26px] sm:text-[18px] sm:leading-[29px];
+  }
+  .body-medium-medium {
+    @apply text-[16px] font-medium leading-[26px] sm:text-[18px] sm:leading-[29px];
+  }
+  .body-small-bold {
+    @apply text-[14px] font-bold leading-[22px] sm:text-[16px] sm:leading-[26px];
+  }
+  .body-small-medium {
+    @apply text-[14px] font-medium leading-[22px] sm:text-[16px] sm:leading-[26px];
+  }
+  .caption-bold {
+    @apply text-[12px] font-bold leading-[19px] sm:text-[14px] sm:leading-[22px];
+  }
+  .caption-medium {
+    @apply text-[12px] font-medium leading-[19px] sm:text-[14px] sm:leading-[22px];
+  }
+  .link-small {
+    @apply text-[14px] font-medium leading-[22px] sm:text-[16px] sm:leading-[26px];
   }
 }
 

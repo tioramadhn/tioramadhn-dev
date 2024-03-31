@@ -3,8 +3,8 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 
 const Footer = () => {
   return (
-    <div className="min-h-16 border-t">
-      <MaxWidthWrapper>Footer</MaxWidthWrapper>
+    <div className="min-h-16 border-t flex items-center">
+      <MaxWidthWrapper>Coming Soon</MaxWidthWrapper>
     </div>
   );
 };
