@@ -10,8 +10,47 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "tioramadhn | Official Portfolio Website",
-  description: "Ini adalah website portofolio pribadi punyanya tio",
+  metadataBase: new URL("https://tioramadhn.dev"),
+  keywords: [
+    "Tio Ramadhan",
+    "tioramadhn",
+    "Tio Developer",
+    "Tayo",
+    "Full Stack Developer",
+    "Tio Ramadhan Website Portfolio",
+    "Tio Portfolio",
+    "Portfolionya tio",
+    "Software Engineer",
+  ],
+  openGraph: {
+    title: "Tio Ramadhan | Full Stack Developer",
+    description:
+      "an online portfolio featuring a showcase of my projects and some thoughts as a Full Stack Developer who loves intuitive, clean and modern UI design.",
+    siteName: "Tio Ramadhan - Full Stack Developer",
+    type: "website",
+    url: "https://tioramadhn.dev",
+    emails: "tioramadhan9f@gmail.com",
+    images: [
+      {
+        url: "https://tioramadhn.dev/og.png", // Must be an absolute URL
+        width: 976,
+        height: 748,
+      },
+    ],
+  },
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({

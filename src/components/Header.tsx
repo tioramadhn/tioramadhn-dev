@@ -10,8 +10,12 @@ const Header = () => {
     <div className="sticky h-16 border-b flex items-center">
       <MaxWidthWrapper className="flex justify-between items-center">
         <Link href={"/"} passHref>
-          <div className="body-large-bold ">
-            tioramadhn<span className="text-primary">dev</span>
+          <div className="body-large-bold flex items-center gap-1">
+            <Button className="text-lg font-bold w-6 h-6">#</Button>
+            <p>
+              tioramadhn
+              <span className="text-primary">dev</span>
+            </p>
           </div>
         </Link>
 
