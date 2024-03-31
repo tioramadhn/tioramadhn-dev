@@ -11,7 +11,7 @@ export default function Home() {
       <div className="space-y-5 col-span-full">
         <h2 className="body-medium-bold">Hi! 👋</h2>
         <h1 className="heading-section-title inline">
-          I'm <span className="text-primary">Tio</span> Ramadhan,
+          I&apos;m <span className="text-primary">Tio</span> Ramadhan,
         </h1>
         <p className="boyd-large-medium">
           a <span className="font-bold">full-stack developer</span> who loves
