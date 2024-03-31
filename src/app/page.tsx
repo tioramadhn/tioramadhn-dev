@@ -1,12 +1,12 @@
+import SplineTemplate from "@/components/Spline";
 import { Button } from "@/components/ui/button";
 import { FileText } from "lucide-react";
-import { Metadata } from "next";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="py-20 grid grid-cols-2">
-      <div className="space-y-5 col-span-full">
+    <main className="py-20 grid grid-cols-2 md:place-items-center">
+      <div className="space-y-5 col-span-full ">
         <h2 className="body-medium-bold">Hi! 👋</h2>
         <h1 className="heading-section-title inline">
           I&apos;m <span className="text-primary">Tio</span> Ramadhan,
@@ -29,6 +29,9 @@ export default function Home() {
             </Button>
           </Link>
         </div>
+      </div>
+      <div className="col-span-full relative">
+        <SplineTemplate />
       </div>
     </main>
   );
