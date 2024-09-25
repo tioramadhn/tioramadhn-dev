@@ -27,11 +27,11 @@ export const metadata: Metadata = {
     "tioramadhn.dev",
   ],
   openGraph: {
+    url: "https://tioramadhn.dev",
     title: "Tio Ramadhan | Full Stack Developer | Web & Software Projects",
     description:
       "Tio Ramadhan's portfolio showcasing web and software projects. Specializing in modern UI/UX design and scalable software solutions.",
     siteName: "Tio Ramadhan - Full Stack Developer",
-
     type: "website",
     images: [
       {
@@ -63,6 +63,9 @@ export default function RootLayout({
 }>) {
   return (
     <html>
+      <head>
+        <link rel="canonical" href={`https://tioramadhn.dev`} />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
