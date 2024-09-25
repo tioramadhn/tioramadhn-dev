@@ -66,6 +66,15 @@ export default function RootLayout({
       <head>
         <link rel="canonical" href={`https://tioramadhn.dev`} />
       </head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-35CPCBTXEM"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || []; function gtag()
+        {dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config',
+        'G-35CPCBTXEM');
+      </script>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
