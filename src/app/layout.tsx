@@ -10,6 +10,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tioramadhn.dev"),
   title: "Tio Ramadhan | Full Stack Developer | Web & Software Projects",
   description:
     "Explore the portfolio of Tio Ramadhan, a Full Stack Developer specializing in modern web applications, love clean UI/UX design, and scalable software solutions.",
@@ -30,6 +31,7 @@ export const metadata: Metadata = {
     description:
       "Tio Ramadhan's portfolio showcasing web and software projects. Specializing in modern UI/UX design and scalable software solutions.",
     siteName: "Tio Ramadhan - Full Stack Developer",
+
     type: "website",
     images: [
       {
