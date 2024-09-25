@@ -6,7 +6,7 @@ import { DotedBackground } from "@/components/DotedBackground";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -70,11 +70,6 @@ export default function RootLayout({
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-35CPCBTXEM"
       ></script>
-      <script>
-        window.dataLayer = window.dataLayer || []; function gtag()
-        {dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config',
-        'G-35CPCBTXEM');
-      </script>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -92,6 +87,7 @@ export default function RootLayout({
           </main>
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-35CPCBTXEM" />
     </html>
   );
 }
