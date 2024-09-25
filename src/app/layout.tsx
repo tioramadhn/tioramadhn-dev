@@ -31,10 +31,9 @@ export const metadata: Metadata = {
       "Tio Ramadhan's portfolio showcasing web and software projects. Specializing in modern UI/UX design and scalable software solutions.",
     siteName: "Tio Ramadhan - Full Stack Developer",
     type: "website",
-    url: "https://tioramadhn.dev",
     images: [
       {
-        url: "https://tioramadhn.dev/og.png", // Ensure this image represents your portfolio brand
+        url: "/og.png", // Ensure this image represents your portfolio brand
         width: 976,
         height: 748,
       },
