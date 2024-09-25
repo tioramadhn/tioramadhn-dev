@@ -10,53 +10,44 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tio Ramadhan | Full Stack Developer",
+  title: "Tio Ramadhan | Full Stack Developer | Web & Software Projects",
   description:
-    "an online portfolio featuring a showcase of my projects and some thoughts as a Full Stack Developer who loves intuitive, clean and modern UI design.",
-  metadataBase: new URL("https://tioramadhn.dev"),
+    "Explore the portfolio of Tio Ramadhan, a Full Stack Developer specializing in modern web applications, love clean UI/UX design, and scalable software solutions.",
   keywords: [
     "Tio Ramadhan",
-    "tio ramadhan ipb",
-    "tioramadhn",
-    "Tio Developer",
-    "tayo",
-    "tioramadhn.dev",
-    "tioramadhn dev",
-    "tio dev",
-    "tio developer",
-    "tioramadhan",
-    "tio ramadhan portfolio",
     "Full Stack Developer",
-    "Tio Ramadhan Website Portfolio",
-    "Tio Portfolio",
-    "Portfolionya tio",
+    "Web Developer Portfolio",
     "Software Engineer",
-    "anggi cantik",
+    "UI/UX Design",
+    "Next.js Developer",
+    "React.js Developer",
+    "JavaScript Developer",
+    "Portfolio Website",
+    "tioramadhn.dev",
   ],
   openGraph: {
-    title: "Tio Ramadhan | Full Stack Developer",
+    title: "Tio Ramadhan | Full Stack Developer | Web & Software Projects",
     description:
-      "an online portfolio featuring a showcase of my projects and some thoughts as a Full Stack Developer who loves intuitive, clean and modern UI design.",
+      "Tio Ramadhan's portfolio showcasing web and software projects. Specializing in modern UI/UX design and scalable software solutions.",
     siteName: "Tio Ramadhan - Full Stack Developer",
     type: "website",
     url: "https://tioramadhn.dev",
-    emails: "tioramadhan9f@gmail.com",
     images: [
       {
-        url: "https://tioramadhn.dev/og.png", // Must be an absolute URL
+        url: "https://tioramadhn.dev/og.png", // Ensure this image represents your portfolio brand
         width: 976,
         height: 748,
       },
     ],
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
     nocache: true,
     googleBot: {
       index: true,
-      follow: false,
-      noimageindex: true,
+      follow: true,
+      noimageindex: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
